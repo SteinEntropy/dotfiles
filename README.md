@@ -13,7 +13,9 @@ Homebrew is a package manager for macOS. To install it, run the following comman
 
 After installing Homebrew, add it to your shell’s path:
 ```
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile eval "$(/opt/homebrew/bin/brew shellenv)"
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/[username]/.zprofile
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
 
 ## 2. Install iTerm2
@@ -28,6 +30,11 @@ brew install --cask iterm2
 Install Git with Homebrew:
 ```
 brew install git
+```
+
+You can verify Git installation with:
+```
+git --version
 ```
 
 ## 4. Install Oh My Zsh
@@ -84,6 +91,7 @@ git pull
 
 Finally, use Homebrew to install all the required dependencies defined in the `Brewfile`:
 ```
+cd ~/dotfiles
 brew bundle --file=~/dotfiles/.Brewfile
 ```
 
