@@ -162,7 +162,7 @@ Install QMK Toolbox:
 brew install --cask qmk-toolbox
 ```
 
-**[Mos](https://mos.softify.me/)** (Smooth Mouse Scrolling): 
+**[Mos](https://mos.caldis.me/)** (Smooth Mouse Scrolling): 
 
 Install Mos:
 ```
