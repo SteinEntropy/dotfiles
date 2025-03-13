@@ -92,3 +92,79 @@ brew bundle --file=~/dotfiles/.Brewfile
 ### **You're done!** Enjoy your personalized setup. 🎉
 
 ---
+
+# Additional Software
+
+Here are the key software tools I use regularly:
+
+**[iTerm2](https://iterm2.com/)** (Terminal): Already installed in the earlier steps.
+
+
+**[Anki](https://apps.ankiweb.net/)** (Spaced Repetition Software):
+  
+To install Anki, run:
+```
+brew install --cask anki
+```
+
+**[Arc](https://arc.net/)** (Main Web Browser):
+
+Install Arc via Homebrew:
+```
+brew install --cask arc
+```
+
+**[Obsidian](https://obsidian.md/)** (Second Brain, Note-Taking):
+
+Install Obsidian:
+```
+brew install --cask obsidian
+```
+
+**[NordPass](https://nordpass.com/)** (Password Management): 
+
+Install NordPass:
+```
+brew install --cask nordpass
+```
+**[NordVPN](https://nordvpn.com/)** (VPN Service): 
+
+Install NordVPN:
+```
+brew install --cask nordvpn
+```
+
+**[Spotify](https://www.spotify.com/)** (Music Player): 
+
+Install Spotify:
+```
+brew install --cask spotify
+```
+
+**[Discord](https://discord.com/)** (Communication): 
+
+Install Discord:
+```
+brew install --cask discord
+```
+
+**[Raycast](https://www.raycast.com/)** (Application Launcher & Window Management): 
+
+Install Raycast:
+```
+brew install --cask raycast
+```
+
+**[QMK Toolbox](https://qmk.fm/toolbox/)** (Keyboard Configurator): 
+
+Install QMK Toolbox:
+```
+brew install --cask qmk-toolbox
+```
+
+**[Mos](https://mos.softify.me/)** (Smooth Mouse Scrolling): 
+
+Install Mos:
+```
+brew install --cask mos
+```
