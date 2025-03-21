@@ -62,3 +62,6 @@ cask "rectangle"
 cask "secretive"
 cask "sf-symbols"
 cask "xquartz"
+
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
