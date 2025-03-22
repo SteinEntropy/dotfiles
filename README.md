@@ -88,6 +88,29 @@ cd ~/dotfiles
 brew bundle --file=~/dotfiles/.Brewfile
 ```
 
+## 9. (OPTIONAL): Automate Symlink Creation with a Script
+You can automate the symlink creation process by using a setup script in your dotfiles repository. If you prefer automation, you can create a setup.sh script in your dotfiles directory that runs the symlink commands. Here's an example setup.sh script:
+
+```#!/bin/bash```
+
+# Create symlinks for dotfiles
+```
+ln -s ~/dotfiles/.zshrc ~/.zshrc
+ln -s ~/dotfiles/.vimrc ~/.vimrc
+ln -s ~/dotfiles/.gitconfig ~/.gitconfig
+```
+etc...
+
+# Add more symlinks as needed
+To use the script:
+Clone the repository as described above.
+Run the setup script:
+
+```
+cd ~/dotfiles
+./setup.sh
+```
+
 ---
 
 ### **You're done!** Enjoy your personalized setup. 🎉
