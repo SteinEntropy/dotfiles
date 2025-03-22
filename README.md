@@ -75,16 +75,9 @@ Powerlevel10K requires a Nerd Font for proper display. Install a Nerd Font in iT
 ## 7. Clone the Dotfiles Repository
 
 Clone your dotfiles repository and set it up:
+
 ```
-git init 
-
-git remote add origin git@github.com:SteinEntropy/dotfiles.git 
-
-git fetch 
-
-git checkout master 
-
-git pull
+git clone https://github.com/SteinEntropy/dotfiles.git ~/dotfiles
 ```
 
 ## 8. Install Dependencies with Homebrew Bundle
